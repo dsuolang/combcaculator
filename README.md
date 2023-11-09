@@ -6,7 +6,7 @@ The `combination_count` function in this package is a utility for calculating th
 
 ## Installation
 
-You can simply copy and paste the function into your R script or environment.
+Simply use the one line of command `devtools::install("dsuolang/combcaculator")` to install the package.
 
 ## Usage
 
