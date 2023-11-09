@@ -6,18 +6,16 @@ The `combination_count` function in this package is a utility for calculating th
 
 ## Installation
 
-Simply `devtools::install("dsuolang/combcaculator")` to install the package.
+Simply code and paste this command into your R script or RStudio `devtools::install("dsuolang/combcaculator")` to install the package.
 
 ## Usage
 
 To use the `combination_count` function, follow these steps:
-1. Copy the function code and paste it into your R script or RStudio.
+1. Call the function with the appropriate values for `N` and `n`. For example example, result will be assigned the value 10 because there are 10 different ways to choose 2 elements from a set of 5.
 
-2. Call the function with the appropriate values for `N` and `n`. For example example, result will be assigned the value 10 because there are 10 different ways to choose 2 elements from a set of 5.
+2. Ensure that your input values are whole numbers (integers) and that they meet the required conditions. The function will return an error message if the inputs are invalid.
 
-3. Ensure that your input values are whole numbers (integers) and that they meet the required conditions. The function will return an error message if the inputs are invalid.
-
-4. The function will return the number of combinations, and you can store this result in a variable for further use or analysis.
+3. The function will return the number of combinations, and you can store this result in a variable for further use or analysis.
 
 
 ## Input Validation
