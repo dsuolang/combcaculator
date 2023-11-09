@@ -1,7 +1,12 @@
 ---
-title: "vignettes"
+title: "Tutorial"
 output: html_document
 date: "2023-11-08"
+vignette: > 
+  %\VignetteIndexEntry{combcaculator Tutorial}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+
 ---
 
 ```{r setup, include=FALSE}
@@ -15,6 +20,6 @@ To use the function "combination_count".
 As a specific example, one can compute the number of five-card hands possible from a standard fifty-two card deck as. In this case, N is 52, and n is 5.
 ```{r}
 # N and n must be whole numbers
-combcaculator: combination_count(52, 5)
+combination_count(52, 5)
 ```
 
