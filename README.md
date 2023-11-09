@@ -34,5 +34,6 @@ This function is provided under an open-source license.
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/dsuolang/combcaculator/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dsuolang/combcaculator/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/dsuolang/combcaculator/branch/main/graph/badge.svg)](https://app.codecov.io/gh/dsuolang/combcaculator?branch=main)
+[![Codecov test coverage](https://codecov.io/gh/dsuolang/combcaculator/branch/main/graph/badge.svg)](https://github.com/dsuolang/combcaculator/blob/main/codecov.yml)
+
 <!-- badges: end -->
