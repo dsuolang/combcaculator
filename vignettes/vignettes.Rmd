@@ -16,10 +16,24 @@ library(combcaculator)
 
 This package is designed to make it quick and easy to compute the possible combination when selecting sample items. You can read more about combination at https://en.wikipedia.org/wiki/Combination.
 
-To use the function "combination_count".
+To use the function "combination_count", you need to input the total number of elements N, and number of elements to select n.
 As a specific example, one can compute the number of five-card hands possible from a standard fifty-two card deck as. In this case, N is 52, and n is 5.
 ```{r}
 # N and n must be whole numbers
 combination_count(52, 5)
+```
+
+To compare correctness against the original R function "combn()". 
+"combn()" returns all possible combination, each as a column. In order to obtain the count, we take ncol(combn())
+```{r}
+all.equal(combination_count(52, 5), ncol(combn(52, 5)))
+all.equal(combination_count(5, 1), ncol(combn(5, 1)))
+all.equal(combination_count(3, 0), ncol(combn(3, 0)))
+```
+To compare the efficiency against the original R function "combn()". 
+The current function is more efficient than the R basic fucntion for calculating the combination.
+```{r, warning=F}
+library(bench)
+bench::mark(combination_count(52, 5), col(combn(52, 5)), check=F)
 ```
 
