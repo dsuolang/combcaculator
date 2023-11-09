@@ -1,0 +1,20 @@
+---
+title: "vignettes"
+output: html_document
+date: "2023-11-08"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(combcaculator)
+```
+
+This package is designed to make it quick and easy to compute the possible combination when selecting sample items. You can read more about combination at https://en.wikipedia.org/wiki/Combination.
+
+To use the function "combination_count".
+As a specific example, one can compute the number of five-card hands possible from a standard fifty-two card deck as. In this case, N is 52, and n is 5.
+```{r}
+# N and n must be whole numbers
+combcaculator: combination_count(52, 5)
+```
+
