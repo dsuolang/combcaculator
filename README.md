@@ -6,7 +6,7 @@ The `combination_count` function in this package is a utility for calculating th
 
 ## Installation
 
-Simply use the one line of command `devtools::install("dsuolang/combcaculator")` to install the package.
+Simply `devtools::install("dsuolang/combcaculator")` to install the package.
 
 ## Usage
 
