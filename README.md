@@ -6,5 +6,6 @@ It generates all combinations of the elements of n taken from N at a time and re
 Two inputs must be whole numbers.
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/dsuolang/combcaculator/workflows/R-CMD-check/badge.svg)](https://github.com/dsuolang/combcaculator/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/dsuolang/combcaculator/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dsuolang/combcaculator/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
